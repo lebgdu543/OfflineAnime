@@ -1,7 +1,8 @@
 **This website is under developement.**
+
 # --- Offanime ---
 
-## What is this and why this thing exist?
+## What is this and why this exist?
 
 - First an anime website is really uncommon thing in today's day.
 - To make it short, with this website and application **(ios not supported!)** you can :
@@ -17,7 +18,7 @@
 ### **(Debian) Linux - Website with the database.**
 
 To implements: 
-- Instructions...
+- Instructions... [video](https://alinkofavideo.com/explaination-of-website-and-database/)
 
 ```
 sudo apt update -y && sudo apt upgrade -y
@@ -26,16 +27,16 @@ sudo apt update -y && sudo apt upgrade -y
 ### **(Debian) Linux - Only Website.**
 
 To implements: 
-- Instructions...
+- Instructions... [video](https://alinkofavideo.com/explaination-of-website/)
 
 ```
 sudo apt update -y && sudo apt upgrade -y
 ```
 
-### **(Debian) Linux - Only database.**
+### **(Debian) Linux - Only database.** 
 
 To implements: 
-- Instructions...
+- Instructions... [video](https://alinkofavideo.com/explaination-of-database/)
 
 ```
 sudo apt update -y && sudo apt upgrade -y
