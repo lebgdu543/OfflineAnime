@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Offanimes",
+  "version": "0.1",
+
+  "description": "store settings, videos and others data to run localy without internet a anime website.",
+
+  "icons": {
+    "48": "icons/offanimes-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.offanime.org/*"],
+      "js": ["offanimes.js"]
+    }
+  ]
+}
