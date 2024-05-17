@@ -7,10 +7,10 @@
 Welcome  to our anime world! Why anime let us explain it to you:
   - First an anime website is really uncommon thing in nowadays.
   - To make it short, with this website and application **(ios not supported!)** you can :
-      --> Watch anime offline!
-      --> Contribute and modify as you like.
-      --> Send a ♥️ to everyone!
-      --> Use Llama3. (idk if i can do this)
+  -   --> Watch anime offline!
+  -   --> Contribute and modify as you like.
+  -   --> Send a ♥️ to everyone!
+  -   --> Use Llama3. (idk if i can do this)
 
 # --- Build --- move to the wiki
 
