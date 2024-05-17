@@ -1,0 +1,14 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box; /* Sets the box-sizing to border-box */
+  margin: 0; /* Removes all margin */
+  padding: 0; /* Removes all padding */
+}
+
+body {
+  font-family: Arial, sans-serif; /* good text */
+  background-color: #1a1a1a; /* dark background */
+  color: #fff; /* light text */
+  transition: background-color 0.5s ease; /* add a transition effect */
+}
