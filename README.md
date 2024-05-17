@@ -2,9 +2,9 @@
 
 # --- Offanime ---
 
-## What is this and why this exist?
+## What is this and why does this exist?
 
-- First an anime website is really uncommon thing in today's day.
+- First an anime website is really uncommon thing in nowadays.
 - To make it short, with this website and application **(ios not supported!)** you can :
 - Watch anime offline!
 - Contribute and modify as you like.
@@ -13,7 +13,7 @@
 
 # --- Build ---
 
-## How do i download and install this into my personnal computer?
+## How can i download and install into my personnal computer?
 
 ### **(Debian) Linux - Website with the database.**
 
