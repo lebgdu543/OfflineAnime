@@ -66,11 +66,11 @@
 | Content | Section |
 | - | - |
 | everything related to the keyboard: | Section 1 |
-| > Shortcuts: | Section 1-a |
+| > Shortcuts: | Section 1-A |
 
 ## Section 1 - everything related to the keyboard
 
-### a - Shortcuts list and description.
+### A - Shortcuts list and description.
 
 Every shortcuts here it can be change in the settings page. The letter located in the footnote ("text") is a button in the keyboard. if the user start typing and reach the most long shortcut words (9), fi move the search of the user in the search bar.
 
@@ -93,12 +93,14 @@ Every shortcuts here it can be change in the settings page. The letter located i
 17. ai: open a frame to select an ai model, for video, audio and text.
 18. q: open the quote of the currently user only if awaible.
 19. c: copy the name of the current anime
-20. contact: show a frame with every information to contact us. (everyone of us)
+20. contact: show a frame with every information to contact us. (everyone of us? or The last of us)
 21. v: vote for the currently opened anime page to be added soon.
 22. a: change the page look to google.com and cut the video player if is on and make it MISS (see arch linux main page)
 23. help: show a frame with differents helps category and give a link to the github wiki.
 24. lobby (or hub,spawn): Goto the main page. (We don't play Minecraft)
 25. hack: open a frame and explain why hacking is not a good thing todo. (and give a h@cker advancement)
+26. random: open a rondom page of an anime.
+27. awesome: print a rainbow with animation!
 
 
 
