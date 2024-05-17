@@ -63,8 +63,10 @@
 
 ## table of contents
 
-everything related to the keyboard - Section 1
-Shortcuts - Section 1-a
+| Content | Section |
+| - | - |
+| everything related to the keyboard: | Section 1 |
+| > Shortcuts: | Section 1-a |
 
 ## Section 1 - everything related to the keyboard
 
