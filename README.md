@@ -2,18 +2,19 @@
 
 # --- Offanime ---
 
-## What is this and why does this exist?
+## What is the aim of this site and why does it exist?
 
-- First an anime website is really uncommon thing in nowadays.
-- To make it short, with this website and application **(ios not supported!)** you can :
-- Watch anime offline!
-- Contribute and modify as you like.
-- Send a ♥️ to everyone!
-- use Llama3. (idk if i can do this)
+Welcome  to our anime world! Why anime let us explain it to you:
+  - First an anime website is really uncommon thing in nowadays.
+  - To make it short, with this website and application **(ios not supported!)** you can :
+      --> Watch anime offline!
+      --> Contribute and modify as you like.
+      --> Send a ♥️ to everyone!
+      --> Use Llama3. (idk if i can do this)
 
 # --- Build --- move to the wiki
 
-## How can i download and install into my personnal computer?
+## How can I download and install on my personnal computer?
 
 ### **(Debian) Linux - Website with the database.**
 
