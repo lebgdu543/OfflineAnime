@@ -11,7 +11,7 @@
 - Send a ♥️ to everyone!
 - use Llama3. (idk if i can do this)
 
-# --- Build ---
+# --- Build --- move to the wiki
 
 ## How can i download and install into my personnal computer?
 
