@@ -1,26 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hamburger Menu</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<nav role="navigation">
-    <div id="menuToggle">
-      <input type="checkbox" />
-      <span></span>
-      <span></span>
-      <span></span>
-      <ul id="menu">
-        <a href="#"><li>Home</li></a>
-        <a href="#"><li>Profile</li></a>
-        <a href="#"><li>Category</li></a>
-        <a href="#"><li>About</li></a>
-        <a href="#"><li>Contributors</li></a>
-      </ul>
-    </div>
-  </nav>
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/ionicons/dist/css/ionicons.min.css"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <nav role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <a href="#"
+            ><li>
+              <ion-icon
+                name="home"
+                role="img"
+                class="md hydrated"
+                aria-label="Home"
+              ></ion-icon
+              >Home
+            </li></a
+          >
+          <a href="#"
+            ><li>
+              <ion-icon
+                name="person"
+                role="img"
+                class="md hydrated"
+                aria-label="Profile"
+              ></ion-icon
+              >Profile
+            </li></a
+          >
+          <a href="#"
+            ><li>
+              <ion-icon
+                name="apps"
+                role="img"
+                class="md hydrated"
+                aria-label="Category"
+              ></ion-icon
+              >Category
+            </li></a
+          >
+          <a href="#"
+            ><li>
+              <ion-icon
+                name="cog"
+                role="img"
+                class="md hydrated"
+                aria-label="cog"
+              ></ion-icon
+              >Settings
+            </li></a
+          >
+          <a href="#"
+            ><li>
+              <ion-icon
+                name="information-circle"
+                role="img"
+                class="md hydrated"
+                aria-label="About"
+              ></ion-icon
+              >About
+            </li></a
+          >
+          <a href="#"
+            ><li>
+              <ion-icon
+                name="people"
+                role="img"
+                class="md hydrated"
+                aria-label="Contributors"
+              ></ion-icon
+              >Contributors
+            </li></a
+          >
+        </ul>
+      </div>
+    </nav>
+  </body>
 </html>
