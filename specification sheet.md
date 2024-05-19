@@ -2,6 +2,11 @@
 
 ## Todo:
 
+Frontend (React)
+Backend (Node.js/Express)
+Bibliothèque de streaming (HLS.js, Shaka Player, Video.js, etc.)
+Stockage des vidéos (AWS S3, Google Cloud Storage, etc.)
+
 1. Introduction
 - Overview of the website
 - Purpose of the document
