@@ -2,10 +2,27 @@
 
 ## Todo:
 
-Frontend (React)
-Backend (Node.js/Express)
-Bibliothèque de streaming (HLS.js, Shaka Player, Video.js, etc.)
-Stockage des vidéos (AWS S3, Google Cloud Storage, etc.)
+- [ ] Frontend (React)
+- [ ] Backend (Node.js/Express)
+- [ ] Bibliothèque de streaming (HLS.js, Shaka Player, Video.js, etc.)
+- [ ] Stockage des vidéos (AWS S3, Google Cloud Storage, etc.)
+
+1. **Utiliser un framework web prêt à l'emploi** :
+   - Des frameworks comme React, Angular ou Vue.js fournissent une structure de base pour construire rapidement une application web.
+   - Ils vous aident à gérer le frontend de manière organisée et efficace.
+
+2. **Utiliser un backend "serverless"** :
+   - Des services comme AWS Lambda, Google Cloud Functions ou Azure Functions vous permettent de déployer du code backend sans avoir à gérer un serveur.
+   - Cela simplifie grandement la mise en place du backend de votre application.
+
+3. **Utiliser une plateforme de streaming vidéo clé en main** :
+   - Des services comme Wowza, Brightcove ou Vimeo proposent des solutions de streaming vidéo complètes, avec des API et des SDK pour les intégrer facilement.
+   - Cela vous évite de devoir développer toute la partie de gestion et de diffusion des vidéos.
+
+4. **Utiliser un générateur de site web statique** :
+   - Des outils comme Gatsby (basé sur React) ou Nuxt.js (basé sur Vue.js) vous permettent de générer des sites web statiques très performants.
+   - Vous pouvez alors vous concentrer sur le développement du frontend et laisser le backend "serverless" gérer les aspects dynamiques.
+
 
 1. Introduction
 - Overview of the website
