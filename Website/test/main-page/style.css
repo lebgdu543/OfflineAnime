@@ -1,0 +1,72 @@
+:root {
+    --color-light: rgb(203 213 225);
+    --color-mid: rgb(51 65 85);
+    --color-dark: rgb(71 85 105);
+}
+body {
+  background-color: black;
+  color: var(--color-light);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+body::before {
+  font-size: 18px;
+  position: absolute;
+  left: 50%;
+  top: calc(50% - 100px);
+  transform: translate(-50%, -50%);
+}
+body::after {
+  content: "By Offanime";
+  position: absolute;
+  bottom: 36px;
+  right: 36px;
+}
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  inset: 0;
+}
+header {
+  width: 340px;
+  padding: 0 16px;
+  display: flex;
+}
+.nav-div {
+  margin: 26px;
+  align-items: center;
+  display: flex;
+}
+.nav-to-offanime {
+  font-size: 24px;
+  color: var(--color-light);
+  text-decoration: none;
+  transition: ease-in-out 0.2s;
+}
+.nav-to-offanime:hover {
+  color: var(--color-mid);
+  text-decoration: none;
+  cursor: pointer;
+}
+.user-profile {
+  height: 36px;
+  aspect-ratio: 1 / 1;
+}
+.user-profile a {
+  color: var(--color-light);
+  transition: ease-in-out 0.2s;
+}
+.user-profile a:hover {
+  color: var(--color-mid);
+  text-decoration: none;
+  cursor: pointer;
+}
+.divider {
+  height: 36px;
+  width: 2px;
+  margin: 24px 18px;
+  background-color: var(--color-dark);
+  transform: rotate(30deg);
+}
