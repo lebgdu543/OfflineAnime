@@ -1,0 +1,172 @@
+:root {
+  --color-light: rgb(203 213 225);
+  --color-mid: rgb(51 65 85);
+  --color-dark: rgb(71 85 105);
+  --color-dark-violet: #2b1055;
+  --color-primary: rgb(70 70 150);
+}
+body {
+  background-color: black;
+  color: var(--color-light);
+  font-family: "Open Sans", "ubuntu", "Inter", sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+}
+body::after {
+  content: "By Offanime";
+  position: absolute;
+  bottom: 36px;
+  right: 36px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+header nav {
+  margin: 16px;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  margin-left: 20px;
+}
+header nav ul li a {
+  color: var(--color-light);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: ease-in-out 0.2s;
+}
+header nav ul li a ion-icon {
+  margin-right: 25px;
+  font-size: 2rem;
+}
+header nav ul li a:hover {
+  color: var(--color-mid);
+  cursor: pointer;
+}
+.current-page {
+  margin: 16px;
+  align-items: center;
+  display: flex;
+}
+.nav-to-offanime {
+  font-size: 24px;
+  color: var(--color-light);
+  text-decoration: none;
+  transition: ease-in-out 0.2s;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2em;
+}
+.nav-to-offanime:hover {
+  color: var(--color-mid);
+  text-decoration: none;
+  cursor: pointer;
+}
+.divider {
+  height: 36px;
+  width: 2px;
+  margin: 24px 18px;
+  background-color: var(--color-dark);
+  transform: rotate(30deg);
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-light);
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+.search-bar input {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  padding: 5px;
+  width: 200px;
+}
+.search-bar input::placeholder {
+  color: var(--color-mid);
+}
+.search-bar ion-icon {
+  color: var(--color-mid);
+  font-size: 20px;
+}
+/* {} */
+.tops {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.tops-items {
+  margin: 30px;
+  flex-basis: 70%;
+}
+.tops-items-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tops-items-one {
+  flex-basis: 48%;
+  display: none;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.tops-items-one.show {
+  display: flex;
+}
+.tops-items-one-banner {
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+.tops-items-one-content {
+  flex-grow: 1;
+}
+.tops-items-one-title {
+  text-align: left;
+  margin-top: 0;
+}
+.tops-items-one-desc {
+  margin-left: 0;
+}
+.tops-options {
+  margin: 30px;
+  flex-basis: 20%;
+}
+.tops-options h3 {
+  margin-top: 0;
+}
+.tops-options ul {
+  list-style-type: none;
+  padding: 0;
+}
+.tops-options li {
+  margin-bottom: 10px;
+}
+.tops-options a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.tops-options a:hover,
+.tops-options a.active {
+  background-color: var(--color-primary);
+  color: white;
+}
+.tops-items-one {
+  display: none;
+}
+.tops-items-one.show {
+  display: flex;
+}

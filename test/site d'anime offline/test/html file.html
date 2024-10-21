@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibnet Video Player</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column; /* Align content in a column */
+            background-color: #333; /* Dark background color for dark mode */
+            color: #fff; /* Light text color for dark mode */
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .video-frame {
+            position: relative;
+            max-width: 1000px; /* Set maximum width for the video player */
+            width: 100%; /* Set width to 100% for responsiveness */
+            text-align: center; /* Center the content horizontally */
+        }
+        .video-frame iframe {
+            width: 640px; /* Default width of the iframe */
+            height: 360px; /* Default height of the iframe */
+        }
+        .button-container {
+            background-color: #555; /* Dark background color for button container */
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px; /* Add margin to separate buttons from video player */
+        }
+        .button-container button {
+            margin: 5px;
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s; /* Add transition for button hover effect */
+        }
+        .button-container button:hover {
+            background-color: #0056b3; /* Change background color on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sibnet Video Player</h1>
+    </header>
+
+    <div class="button-container">
+        <button onclick="changeVideoSize(640, 360)">640x360</button>
+        <button onclick="changeVideoSize(1280, 720)">1280x720</button>
+        <button onclick="changeVideoSize(1920, 1080)">1920x1080</button>
+        <button onclick="changeVideoSize(1000, 500)">1000x500</button>
+    </div>
+
+    <div class="video-frame">
+        <iframe id="videoPlayer" src="https://video.sibnet.ru/shell.php?videoid=5517107" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </div>
+
+    <p>This is a description of the video content.</p>
+
+    <script>
+        function changeVideoSize(width, height) {
+            var videoPlayer = document.getElementById('videoPlayer');
+            videoPlayer.style.width = width + 'px';
+            videoPlayer.style.height = height + 'px';
+        }
+    </script>
+</body>
+</html>
+

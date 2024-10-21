@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Offanime</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/ionicons/dist/css/ionicons.min.css"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="current-page">
+        <a class="nav-to-offanime" href="#home">Offanime</a>
+        <div class="divider"></div>
+        <a class="nav-to-offanime" href="#home">Home</a>
+        <button onclick="myFunction()">copy</button>
+        <input value="test" type="text" id="myInput">
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search..." name="search-bar" required />
+        <ion-icon name="search-outline"></ion-icon>
+      </div>
+      <nav>
+        <ul> <!--
+          <li>
+            <a href="#help"
+              ><ion-icon name="help-circle-outline"></ion-icon> Help</a
+            >
+          </li> -->
+          <li>
+            <a href="#about"
+              ><ion-icon name="information-circle-outline"></ion-icon> <!--About--></a
+            >
+          </li>
+          <li>
+            <a href="#categories"
+              ><ion-icon name="list-outline"></ion-icon> <!--Categories--></a
+            >
+          </li>
+          <li>
+            <a href="#profile"
+              ><ion-icon name="person-outline"></ion-icon> <!--Profile--></a
+            >
+          </li>
+          <li>
+            <a href="#settings"
+              ><ion-icon name="settings-outline"></ion-icon> <!--Settings--></a
+            >
+          </li> <!--
+          <li>
+            <a href="#heart"
+              ><ion-icon name="heart-outline"></ion-icon> heart</a
+            >
+          </li>
+          <li>
+            <a href="#language"
+              ><ion-icon name="language-outline"></ion-icon> language</a
+            >
+          </li> 
+          <li>
+            <a href="#notifications"
+              ><ion-icon name="notifications-outline"></ion-icon> Notifications</a
+            >
+          </li> -->
+        </ul>
+      </nav>
+    </header>
+    <section class="tops">
+      <div class="tops-items">
+        <div class="tops-items-container">
+          <div class="tops-items-one most-liked most-viewed">
+            <img
+              src="https://media.kitsu.io/anime/poster_images/41370/small.jpg"
+              class="tops-items-one-banner"
+            />
+            <div class="tops-items-one-content">
+              <h4 class="tops-items-one-title">Example Anime Title 1</h4>
+              <p class="tops-items-one-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam
+              </p>
+            </div>
+          </div>
+          <div class="tops-items-one most-new">
+            <img
+              src="https://media.kitsu.io/anime/poster_images/41372/small.jpg"
+              class="tops-items-one-banner"
+            />
+            <div class="tops-items-one-content">
+              <h4 class="tops-items-one-title">Example Anime Title 2</h4>
+              <p class="tops-items-one-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore
+              </p>
+            </div>
+          </div>
+          <div class="tops-items-one most-viewed">
+            <img
+              src="https://media.kitsu.io/anime/poster_images/41371/small.jpg"
+              class="tops-items-one-banner"
+            />
+            <div class="tops-items-one-content">
+              <h4 class="tops-items-one-title">Example Anime Title 3</h4>
+              <p class="tops-items-one-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tops-options">
+        <h3><ion-icon name="options-outline"></ion-icon> Filter by:</h3>
+        <ul>
+          <li><a href="#" data-filter="all" class="active">All</a></li>
+          <li><a href="#" data-filter="most-liked">Most liked</a></li>
+          <li><a href="#" data-filter="most-viewed">Most viewed</a></li>
+          <li><a href="#" data-filter="most-new">Most new</a></li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>

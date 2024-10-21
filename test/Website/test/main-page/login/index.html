@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h1>Login</h1>
+    <form>
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required minlength="3">
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label>
+          <input type="checkbox" id="stay-connected" name="stay-connected">
+          Stay connected?
+        </label>
+      </div>
+      <button type="submit" class="login-button">Login</button>
+    </form>
+  </div>
+  <div id="success-message" class="success-message">
+    <p>Connexion réussie !</p>
+  </div>
+  <script src="javascript.js"></script>
+</body>
+</html>
