@@ -1,6 +1,7 @@
 # Specifications sheet for Video Streaming Website, Offanime.
 
 ### add a heart break playlist
+### an ai who detect the intro/outro and delete it.
 
 ## Todo:
 
