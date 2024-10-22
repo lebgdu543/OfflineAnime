@@ -5,6 +5,8 @@
 
 ## Todo:
 
+faut postgre pour la database
+
 - [ ] Frontend (React)
 - [ ] Backend (Node.js/Express)
 - [ ] Bibliothèque de streaming (HLS.js, Shaka Player, Video.js, etc.)
