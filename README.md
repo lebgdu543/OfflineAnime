@@ -1,48 +1,42 @@
 # **This website is under developement.**
 
-# --- Offanime ---
+---
 
-## What is the aim of this site and why does it exist?
+# Offanime
 
-Welcome  to our anime world! Why anime let us explain it to you:
-  - First an anime website is really uncommon thing in nowadays.
-  - To make it short, with this website and application **(ios not supported!)** you can :
-  -   --> Watch anime offline!
-  -   --> Contribute and modify as you like.
-  -   --> Send a ♥️ to everyone!
-  -   --> Use Llama3. (idk if i can do this)
+## Build  (need to be moved to the wiki)
 
-# --- Build --- move to the wiki
+### How can I download and install on my machine?
 
-## How can I download and install on my personnal computer?
-
-### **(Debian) Linux - Website with the database.**
+#### **(Debian) Linux - Website with the database.**
 
 To implements: 
 - Instructions... [video](https://alinkofavideo.com/explaination-of-website-and-database/)
 
-```
+```bash
 sudo apt update -y && sudo apt upgrade -y
 ```
 
-### **(Debian) Linux - Only Website.**
+#### **(Debian) Linux - Only Website.**
 
 To implements: 
 - Instructions... [video](https://alinkofavideo.com/explaination-of-website/)
 
-```
+```bash
 sudo apt update -y && sudo apt upgrade -y
 ```
 
-### **(Debian) Linux - Only database.** 
+#### **(Debian) Linux - Only database.** 
 
 To implements: 
 - Instructions... [video](https://alinkofavideo.com/explaination-of-database/)
 
-```
+```bash
 sudo apt update -y && sudo apt upgrade -y
 ```
 
-## --- Licence ---
+## Licence
 
-Do not copy, share and anything else to make this project more popular before the version "stable v1.1". Please
+Do not copy, share and anything else to make this project more popular before the version "stable v1.1-0001". Please
+
+**Actual version is alpha v0.1-0001**
