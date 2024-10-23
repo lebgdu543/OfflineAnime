@@ -109,7 +109,25 @@ There is 4 icons in order to make easier to go to the profile, help, categories,
 
 #### Banner
 
+The banner is located at the bottom of the header and like the header it's a rounded rectangle, and it main objective it's to provide information to the visitors. It can promote a anime, says the news, show the tree of files and folders located in github (like obsidian graph view) and can show helps.
 
+#### Profile/log-in/sign-up
+
+In this section located under the banner. You will be able to continue your watching, see your last anime, signup or login to your profile. Rounded rectangle.
+
+#### Filter
+
+This section permit you to search you anime using filter. Rounded rectangle. The result is show with a card of anime and the name under the card and if there is an acronym for the name of anime then show it in gray.
+
+(possibility to make new section with most seen, most like, most voted anime)
+
+### B - The anime page.
+
+#### header
+
+The same as the home page. 
+
+#### 
 
 ---
 
